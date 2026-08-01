@@ -20,7 +20,7 @@ CATEGORIES = [
     ("全球产业", "global economy industry structure new economy"),
     ("国外游戏", "new video game release international gaming"),
     ("旅行路线", "unusual travel route destination cost itinerary"),
-    ("健身健康", "exercise fitness healthy living research"),
+    ("健身健康", "resistance trained lifters hypertrophy strength programming RIR fatigue volume periodization research"),
     ("机车", "new motorcycle ADV touring rally engineering suspension engine electronics technical"),
     ("新兴生活", "emerging niche lifestyle trend"),
     ("全球音乐榜", "Billboard Global 200 top 10 this week"),
@@ -58,7 +58,8 @@ def prompt_payload(today, sources):
 1. 乐乐是完成过独自摩托进藏的资深骑手。机车卡默认他已掌握驾照、安全、基础保养与长途常识；禁止“戴头盔、雨天慢行、检查胎压”式入门科普。优先写新车型的发动机/车架/悬挂/电控与骑行取向，ADV和拉力技术、长途装备取舍、路线环境对机械设定的影响、赛事或产业变化。给出可比较的具体参数，并解释参数在真实骑行中的意义，不照抄配置表。
 2. 咖啡卡禁止泛泛讲“水温、研磨、酸苦平衡”。每天从具体咖啡豆、产区与品种、处理法、烘焙和风味逻辑、萃取实验、咖啡特调中选一个窄主题。尽量给出豆种/产区/处理法及可复现的粉量、粉水比、水温、研磨思路、时间或配方；把事实和主编建议分开。
 3. “今日咖啡豆”是独立于咖啡实验的固定卡片。每天只介绍一个明确的咖啡品种或有代表性的产区批次，必须包含：名称与产地、植物学或传播历史、真正出名的时间和原因、常见处理法与代表风味，以及手冲/摩卡壶/意式/法压/冷萃中哪些方式最适合、哪些会掩盖它、推荐参数。注意区分品种、产区、庄园、处理法和商品名，不准混为一谈。
-4. 乐乐喜欢酸度明确的酒，日常口粮酒是格兰威特。DIY 调酒优先酸型、清爽型或酸苦型配方；可围绕格兰威特及其他斯佩塞单一麦芽设计，但不要每天都只写经典 Whisky Sour。给出毫升数、技法、冰型/杯型和酸甜微调，并说明为什么不浪费基酒本身的果香。
+4. 乐乐有5年规律健身史，主要爱好是撸铁。健身卡默认他已掌握基础动作、渐进超负荷、蛋白质和基础训练安排；禁止“多走路、每周练两次、注意睡眠”式新手常识。优先写适用于中高级自然训练者的增肌与力量研究、训练量和频率、RIR/RPE、动作选择与阻力曲线、长肌位训练、平台期、周期化、减量周、疲劳与恢复监测。必须交代研究对象是否为受训者、样本与周期等限制，再给出能用于训练计划的具体做法，不能把单篇研究写成定论。
+5. 乐乐喜欢酸度明确的酒，日常口粮酒是格兰威特。DIY 调酒优先酸型、清爽型或酸苦型配方；可围绕格兰威特及其他斯佩塞单一麦芽设计，但不要每天都只写经典 Whisky Sour。给出毫升数、技法、冰型/杯型和酸甜微调，并说明为什么不浪费基酒本身的果香。
 
 旅行卡必须给出7天内可执行路线，并把交通、住宿、餐饮、活动费用分别列为人民币区间，注明是动态估算、预订前复核。音乐榜卡只有在材料明确支持时才列前十，否则说明缺项。健康内容避免诊断和夸大。最终只返回合法 JSON，不要 Markdown。"""
     schema = {"date": today, "cards": [{"tag": "分类", "title": "标题", "lead": "两三句核心信息", "detail": ["背景与事实", "影响、争议或执行建议"], "source": "https://...", "sourceName": "来源"}]}
