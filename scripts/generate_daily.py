@@ -21,11 +21,11 @@ CATEGORIES = [
     ("国外游戏", "new video game release international gaming"),
     ("旅行路线", "unusual travel route destination cost itinerary"),
     ("健身健康", "exercise fitness healthy living research"),
-    ("机车", "motorcycle news safety new model"),
+    ("机车", "new motorcycle ADV touring rally engineering suspension engine electronics technical"),
     ("新兴生活", "emerging niche lifestyle trend"),
     ("全球音乐榜", "Billboard Global 200 top 10 this week"),
-    ("咖啡", "coffee science brewing specialty coffee"),
-    ("DIY 调酒", "cocktail recipe technique DIY"),
+    ("咖啡", "single origin coffee bean processing fermentation extraction research coffee signature drink"),
+    ("DIY 调酒", "acid forward sour cocktail single malt Scotch whisky Glenlivet recipe technique"),
     ("健康菜谱", "healthy high protein recipe nutrition"),
     ("意外但有用", "important practical knowledge digital safety consumer health"),
 ]
@@ -51,7 +51,14 @@ def discover(tag, query):
     return {"tag": tag, "items": found}
 
 def prompt_payload(today, sources):
-    system = """你是《乐乐日报》的主编。依据提供的新闻标题与链接，写一份准确、自然、信息密度高的中文日报。严禁编造事实、数据、作品、榜单名次和价格；材料不足时明确写‘尚无可靠数据’，不要补全想象。每类只做一张卡片。不是生硬翻译，而是解释背景、事实、影响、争议和限制。旅行卡必须给出7天内可执行路线，并把交通、住宿、餐饮、活动费用分别列为人民币区间，注明是动态估算、预订前复核。音乐榜卡只有在材料明确支持时才列前十，否则说明缺项。健康内容避免诊断和夸大。最终只返回合法 JSON，不要 Markdown。"""
+    system = """你是《乐乐日报》的主编。依据提供的新闻标题与链接，写一份准确、自然、信息密度高的中文日报。严禁编造事实、数据、作品、榜单名次和价格；材料不足时明确写‘尚无可靠数据’，不要补全想象。每类只做一张卡片。不是生硬翻译，而是解释背景、事实、影响、争议和限制。
+
+读者画像与三项硬性编辑标准：
+1. 乐乐是完成过独自摩托进藏的资深骑手。机车卡默认他已掌握驾照、安全、基础保养与长途常识；禁止“戴头盔、雨天慢行、检查胎压”式入门科普。优先写新车型的发动机/车架/悬挂/电控与骑行取向，ADV和拉力技术、长途装备取舍、路线环境对机械设定的影响、赛事或产业变化。给出可比较的具体参数，并解释参数在真实骑行中的意义，不照抄配置表。
+2. 咖啡卡禁止泛泛讲“水温、研磨、酸苦平衡”。每天从具体咖啡豆、产区与品种、处理法、烘焙和风味逻辑、萃取实验、咖啡特调中选一个窄主题。尽量给出豆种/产区/处理法及可复现的粉量、粉水比、水温、研磨思路、时间或配方；把事实和主编建议分开。
+3. 乐乐喜欢酸度明确的酒，日常口粮酒是格兰威特。DIY 调酒优先酸型、清爽型或酸苦型配方；可围绕格兰威特及其他斯佩塞单一麦芽设计，但不要每天都只写经典 Whisky Sour。给出毫升数、技法、冰型/杯型和酸甜微调，并说明为什么不浪费基酒本身的果香。
+
+旅行卡必须给出7天内可执行路线，并把交通、住宿、餐饮、活动费用分别列为人民币区间，注明是动态估算、预订前复核。音乐榜卡只有在材料明确支持时才列前十，否则说明缺项。健康内容避免诊断和夸大。最终只返回合法 JSON，不要 Markdown。"""
     schema = {"date": today, "cards": [{"tag": "分类", "title": "标题", "lead": "两三句核心信息", "detail": ["背景与事实", "影响、争议或执行建议"], "source": "https://...", "sourceName": "来源"}]}
     user = f"日期：{today}\n请按这13类及原顺序输出，每类一张卡：{', '.join(x[0] for x in CATEGORIES)}。\nJSON结构示例：{json.dumps(schema, ensure_ascii=False)}\n检索材料：\n{json.dumps(sources, ensure_ascii=False)}"
     return {"model": MODEL, "temperature": 0.25, "response_format": {"type": "json_object"},
