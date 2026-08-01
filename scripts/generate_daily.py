@@ -18,7 +18,7 @@ CATEGORIES = [
     ("各国财经", "global fiscal monetary policy central bank economy"),
     ("中国新经济", "中国 新经济 产业 结构 政策"),
     ("全球产业", "global economy industry structure new economy"),
-    ("国外游戏", "new video game release international gaming"),
+    ("国外游戏", "new video game official release developer publisher story gameplay previous studio games Chinese title"),
     ("旅行路线", "unusual travel route destination cost itinerary"),
     ("健身健康", "resistance trained lifters hypertrophy strength programming RIR fatigue volume periodization research"),
     ("机车", "new motorcycle ADV touring rally engineering suspension engine electronics technical"),
@@ -60,6 +60,7 @@ def prompt_payload(today, sources):
 3. “今日咖啡豆”是独立于咖啡实验的固定卡片。每天只介绍一个明确的咖啡品种或有代表性的产区批次，必须包含：名称与产地、植物学或传播历史、真正出名的时间和原因、常见处理法与代表风味，以及手冲/摩卡壶/意式/法压/冷萃中哪些方式最适合、哪些会掩盖它、推荐参数。注意区分品种、产区、庄园、处理法和商品名，不准混为一谈。
 4. 乐乐有5年规律健身史，主要爱好是撸铁。健身卡默认他已掌握基础动作、渐进超负荷、蛋白质和基础训练安排；禁止“多走路、每周练两次、注意睡眠”式新手常识。优先写适用于中高级自然训练者的增肌与力量研究、训练量和频率、RIR/RPE、动作选择与阻力曲线、长肌位训练、平台期、周期化、减量周、疲劳与恢复监测。必须交代研究对象是否为受训者、样本与周期等限制，再给出能用于训练计划的具体做法，不能把单篇研究写成定论。
 5. 乐乐喜欢酸度明确的酒，日常口粮酒是格兰威特。DIY 调酒优先酸型、清爽型或酸苦型配方；可围绕格兰威特及其他斯佩塞单一麦芽设计，但不要每天都只写经典 Whisky Sour。给出毫升数、技法、冰型/杯型和酸甜微调，并说明为什么不浪费基酒本身的果香。
+6. 国外游戏卡每期精选1—3款，宁可少而完整，不可只列清单。正文中每款游戏第一次出现必须使用“English Title（官方中文名）”格式，英文名和中文名各写一遍；若没有官方中文名，写“暂无官方中文名”，禁止自造译名。每款必须分别说明：核心玩法、故事或世界观、开发商与发行商、开发商此前的代表作，以及本作和旧作在类型或设计上的关系。严格区分开发商与发行商，也不要把工作室后来接手运营的作品说成它原创开发。只采用官方商店、开发商或发行商可确认的信息；未公布的故事和机制明确写未公布。
 
 旅行卡必须给出7天内可执行路线，并把交通、住宿、餐饮、活动费用分别列为人民币区间，注明是动态估算、预订前复核。音乐榜卡只有在材料明确支持时才列前十，否则说明缺项。健康内容避免诊断和夸大。最终只返回合法 JSON，不要 Markdown。"""
     schema = {"date": today, "cards": [{"tag": "分类", "title": "标题", "lead": "两三句核心信息", "detail": ["背景与事实", "影响、争议或执行建议"], "source": "https://...", "sourceName": "来源"}]}
