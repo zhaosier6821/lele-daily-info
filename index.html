@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>乐乐每日情报</title>
 <style>
-body{margin:0;background:#f7f5ef;color:#222;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}.wrap{max-width:900px;margin:auto;padding:30px 18px}h1{font-size:40px;margin:0}.intro{color:#777;line-height:1.7;margin:12px 0 24px}.calendar{background:#fff;border-radius:20px;padding:20px;margin-bottom:24px}.days{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}.day{text-align:center;padding:10px;border-radius:12px;background:#f3f1eb}.active{background:#222;color:#fff}.waterfall{columns:2;column-gap:16px}.card{break-inside:avoid;padding:22px;border-radius:22px;margin-bottom:16px;line-height:1.7;cursor:pointer}.card h2{margin-top:0;font-size:22px}.a{background:#eef5f1}.b{background:#f7f0e8}.c{background:#eef1f7}.d{background:#f5edf4}.e{background:#eef5f5}.f{background:#f6f3e8}@media(max-width:600px){.waterfall{columns:1}}
+body{margin:0;background:#f7f4ed;color:#222;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}.wrap{max-width:1000px;margin:auto;padding:32px 20px}h1{font-size:42px;margin:0 0 8px}.intro{color:#777;line-height:1.7}.calendar{background:#fff;border-radius:24px;padding:20px;margin:24px 0}.days{display:flex;gap:8px;flex-wrap:wrap}.day{padding:8px 14px;background:#f1eee7;border-radius:14px}.active{background:#333;color:#fff}.waterfall{columns:2;column-gap:18px}.card{break-inside:avoid;border-radius:24px;padding:24px;margin-bottom:18px;line-height:1.8;cursor:pointer}.card:hover{transform:translateY(-2px)}.tag{font-size:13px;color:#777}.a{background:#edf3ef}.b{background:#f5eee5}.c{background:#edf0f6}.d{background:#f3edf3}.e{background:#edf5f5}.f{background:#f5f1e6}@media(max-width:700px){.waterfall{columns:1}h1{font-size:34px}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <h1>🌍 乐乐每日情报</h1>
-<div class="intro">每日早晨8点更新，探索世界变化：财经、产业、旅行、游戏、健康、音乐与生活方式。</div>
-<div class="calendar"><b>📅 历史日期</b><div class="days"><div class="day">7/29</div><div class="day">7/30</div><div class="day">7/31</div><div class="day active">8/1</div></div></div>
-<div class="waterfall">
-<div class="card a"><h2>💰 全球财经雷达</h2>关注政策变化、市场趋势与全球经济事件。</div>
-<div class="card b"><h2>🇨🇳 中国新经济观察</h2>追踪产业升级、新商业模式和消费变化。</div>
-<div class="card c"><h2>🎮 海外游戏圈</h2>发现新游戏、新玩法与行业趋势。</div>
-<div class="card d"><h2>✈️ 世界旅行指南</h2>整理路线、预算和目的地灵感。</div>
-<div class="card e"><h2>💪 健康生活</h2>健身、运动、咖啡、饮食与生活方式。</div>
-<div class="card f"><h2>🎵 全球音乐趋势</h2>关注海外音乐动态和文化变化。</div>
+<div class="intro">每日 8:00 更新｜全球财经、产业趋势、游戏、旅行、健康与生活方式观察。</div>
+<div class="calendar"><b>📅 历史日报</b><div class="days"><div class="day">7/30</div><div class="day">7/31</div><div class="day active">8/1</div></div></div>
+<div id="list" class="waterfall"></div>
 </div>
-</div>
+<script>
+fetch('data/2026-08-01.json').then(r=>r.json()).then(data=>{document.getElementById('list').innerHTML=data.sections.map((x,i)=>`<div class="card ${['a','b','c','d','e','f'][i%6]}"><div class="tag">每日情报</div><h2>${x.title}</h2><p>${x.content}</p></div>`).join('')})
+</script>
 </body>
 </html>
