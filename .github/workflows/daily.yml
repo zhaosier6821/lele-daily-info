@@ -1,36 +1,47 @@
-name: Update Lele Daily
+name: Validate Lele Daily
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - "data/**"
+      - "index.html"
 
 permissions:
-  contents: write
-  models: read
+  contents: read
 
 concurrency:
-  group: lele-daily-update
-  cancel-in-progress: false
+  group: lele-daily-validation
+  cancel-in-progress: true
 
 jobs:
-  update:
+  validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Generate today's issue
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_daily.py
-      - name: Publish archive
+      - name: Validate archive and issues
         run: |
-          if git diff --quiet; then exit 0; fi
-          git config user.name "lele-daily-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data
-          git commit -m "Update Lele Daily $(TZ=Asia/Shanghai date +%F)"
-          git push
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data_dir = Path("data")
+          archive = json.loads((data_dir / "archive.json").read_text(encoding="utf-8"))
+          dates = archive["dates"]
+
+          assert dates == sorted(set(dates)), "archive dates must be sorted and unique"
+          for date in dates:
+              issue = json.loads((data_dir / f"{date}.json").read_text(encoding="utf-8"))
+              if "date" in issue:
+                  assert issue["date"] == date, f"date mismatch in {date}.json"
+              cards = issue.get("cards", issue.get("sections", []))
+              assert cards, f"no cards in {date}.json"
+              for index, card in enumerate(cards, start=1):
+                  assert card.get("source"), f"missing source in {date}.json card {index}"
+
+          print(f"Validated {len(dates)} issues")
+          PY
