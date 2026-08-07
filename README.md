@@ -6,4 +6,6 @@
 
 ## 自动更新
 
-GitHub Actions 在每天 00:00 UTC（北京时间 08:00）运行 `scripts/generate_daily.py`，使用 GitHub Models 将近两天公开资讯整理为中文卡片，并把结果保存到 `data/YYYY-MM-DD.json`。也可以在 Actions 页面手动运行。
+ChatGPT 定时任务在北京时间每天 08:00 检索公开资料、生成 14 张中文卡片，并把结果保存到 `data/YYYY-MM-DD.json`，同时更新 `data/archive.json`。
+
+GitHub Actions 不再负责生成内容；它会在数据或页面发生变更后校验归档日期、日报文件与来源链接是否完整。
