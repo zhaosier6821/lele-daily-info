@@ -1,0 +1,160 @@
+{
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-08T00:06:28Z",
+  "cards": [
+    {
+      "tag": "各国财经",
+      "title": "印度用一组资本流动工具换回 408 亿美元：稳汇率不只靠加息",
+      "lead": "印度央行披露，6 月推出的优惠套保、掉期安排、国企与银行海外融资，以及外币非居民存款等措施，已带来约 408.1 亿美元资本流入。政策目标是在不立即抬高国内利率的情况下补外储、托住卢比。",
+      "detail": [
+        "这套组合把成本分散给套保、融资和存款渠道：与直接加息相比，对本地贷款需求的冲击更小，也更能定向吸引长期外币资金。但流入总额不是永久资本，部分资金对套保优惠与利差高度敏感，政策退出时可能反向流出。",
+        "判断它是否真稳住卢比，要继续看三件事：外储净增量是否接近名义流入、远期头寸是否积累新的隐性负债、外币存款期限是否足够长。只看 408 亿美元 headline，会高估政策获得的净缓冲。"
+      ],
+      "source": "https://www.reuters.com/world/india/indian-central-banks-capital-flow-measures-draw-nearly-41-billion-2026-08-01/",
+      "sourceName": "Reuters · 2026-08-01"
+    },
+    {
+      "tag": "中国新经济",
+      "title": "央行下半年关键词：熊猫债、离岸人民币和地方融资平台转型",
+      "lead": "中国人民银行在 8 月 2 日发布的下半年工作部署中承诺适时调整货币政策工具、保持流动性充裕，并支持更多境外机构发行人民币熊猫债。",
+      "detail": [
+        "政策同时把上海跨境与离岸金融服务、香港离岸人民币枢纽、流动性管理和风险对冲工具放进同一框架。这说明“开放”不只是让资金进来，而是要补齐人民币融资、交易、套保和清算的基础设施。",
+        "另一条线是继续支持地方融资平台债务风险化解和市场化转型。它不会自动消除旧债，而是通过期限置换、融资成本和资产运营争取时间。二季度 GDP 增长 4.3%、低于全年 4.5%—5.0%目标下限，使政策更需要在宽信用与防风险之间精细操作。"
+      ],
+      "source": "https://www.reuters.com/world/asia-pacific/chinas-central-bank-pledges-timely-policy-tool-adjustment-2026-08-02/",
+      "sourceName": "Reuters / 中国人民银行工作会议 · 2026-08-02"
+    },
+    {
+      "tag": "全球产业",
+      "title": "美国制造业 PMI 升至 55.6：需求回来了，交付和价格也一起变坏",
+      "lead": "美国 7 月 ISM 制造业 PMI 从 53.3 升至 55.6，为 2022 年 5 月以来最高；新订单升至 56.7，就业指数从 49.7 回到 52.8，是 33 个月来首次扩张。",
+      "detail": [
+        "增长并不轻松：供应商交付指数升至 58.9，意味着交付更慢；投入价格仍高达 71.1。AI 基础设施支出与企业提前下单支撑电子、电气设备、机械和运输设备，但中东冲突、航线绕行、关键矿产竞争和油价使成本继续堆积。",
+        "PMI 的一部分上升来自交期拉长，在正常周期里代表需求旺盛，在供给冲击里却可能代表堵塞。企业应把订单增长拆成真实终端需求和抢跑补库存，投资者也不能把 55.6 直接等同于利润率改善。"
+      ],
+      "source": "https://www.reuters.com/business/us-manufacturing-activity-jumps-more-than-four-year-high-july-2026-08-03/",
+      "sourceName": "Reuters · 2026-08-03"
+    },
+    {
+      "tag": "国外游戏",
+      "title": "Palworld Online（暂无官方中文名）：授权给 Garena 的手机版 MMO，不是 Pocketpair 亲自移植",
+      "lead": "Garena 宣布开发并发行 iOS、Android 游戏 Palworld Online，计划 2026 年上线。它获得 Pocketpair 正式授权，但采用新的叙事背景和独占支线，把原作的抓帕鲁、生存建造与自动生产放进持续在线的共享世界。",
+      "detail": [
+        "玩家可以组队建设共同据点，让帕鲁生产和防守，参加开放世界 Boss、PvE 和 PvP，也能访问他人基地。移动端加入触控界面与可选一键操作，覆盖基地规划、建造、迁移和帕鲁部署；关键问题是这些简化会不会把原作的系统性变成自动任务。",
+        "开发与发行均为 Garena；Pocketpair 是授权方，自己的作品包括 Palworld、Craftopia 和 Overdungeon。还要和 Krafton 另行开发的 Palworld Mobile 区分。Garena 的核心强项是 Free Fire 等移动游戏的全球发行、本地化和长线运营，不应把原版 Palworld 算作它的公司前作。"
+      ],
+      "source": "https://www.garena.sg/news/7UPUTA",
+      "sourceName": "Garena 官方 · 2026-08-03"
+    },
+    {
+      "tag": "旅行路线",
+      "title": "7 天亚美尼亚自驾：埃里温—阿拉加茨—诺拉万克—塔特夫—塞凡湖",
+      "lead": "一份 2026 年 7 月实走路线用 7 天完成约 900 km，自驾、修道院、高山和塞凡湖都覆盖。原行程从欧洲出发每人约 624 欧元；从北京出发，机票会成为最大差异。",
+      "detail": [
+        "路线：D1 埃里温城市、Cascade 与纪念馆；D2 Byurakan—阿拉加茨山区；D3 Khor Virap—Areni—Noravank；D4 Tatev 缆车与南部山谷；D5 返回中部，经 Garni、Geghard；D6 Dilijan 森林小镇；D7 塞凡湖后回埃里温。全程两人轮换驾驶更舒服，不愿自驾可用包车，官方旅游点之间公共交通并不连续。",
+        "北京出发、两人拼房估算：机票 4,000—7,000 元；租车、保险与燃油 1,400—2,200 元/人；6 晚住宿 1,200—2,200 元；餐饮 850—1,400 元；缆车、门票、电话卡和停车 400—800 元，总计约 7,850—13,600 元。价格为 2026 年夏季动态估算；山区路况、跨境租车限制和全险免赔额需预订时复核。"
+      ],
+      "source": "https://milimundo.com/7-day-armenia-road-trip-my-day-by-day-itinerary/",
+      "sourceName": "MiliMundo 实走记录 · 2026-07-20"
+    },
+    {
+      "tag": "健身健康",
+      "title": "Deload 没拖累增肌，但证据还远远不够替老手定周期",
+      "lead": "一项 2026 年随机同体对照研究让 19 名未训练年轻男性练 8 周：一侧肢体持续每周两练、每个动作 6—8 组；另一侧在第 4 与第 8 周降到每周一次、每个动作 2 组。",
+      "detail": [
+        "两种条件的肱二头肌与股四头肌厚度、10RM 都有相近提高，没有显著的时间×条件交互。这说明短期降低组数和频率未必会让适应消失。但样本只有 19 人、对象无训练经验、只有弯举和腿屈伸，不能直接证明练了 5 年的人每四周都该 deload。",
+        "老手更适合触发式安排：当同 RIR 的负重或次数连续 2—3 次下降、关节刺激累积、睡眠和主动训练意愿同时变差，再把 5—7 天组数砍 40%—60%、保留动作模式并降低失败组。Deload 是疲劳管理，不是日历宗教；状态好时机械执行，反而浪费有效训练。"
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41730991/",
+      "sourceName": "Scientific Reports / PubMed · 2026-02-24"
+    },
+    {
+      "tag": "机车",
+      "title": "2026 Yamaha Ténéré 700：CP2 仍是核心，升级价值在电子控制的可选择性",
+      "lead": "2026 Ténéré 700 继续使用约 690 cc CP2 并列双缸、钢管车架与 21/18 英寸辐条轮。它的长途优势仍不是参数碾压，而是线性扭矩、结构相对简单和真实非铺装中的可控质量。",
+      "detail": [
+        "新版加入电子油门后，可提供动力模式、可调牵引力控制与更清晰的 TFT 信息；ABS 允许按路况选择。对有高原和烂路经验的骑手，最重要的是电子系统可以减负也可以退出，而不是强行替你做决定。长行程悬挂、窄车身和站姿三角仍比峰值马力更决定碎石路效率。",
+        "取舍也没消失：满油和护杠行李会把轻巧感迅速吃掉，原厂风挡与坐垫更偏功能而非长高速舒适。准备远行应先核对载荷、后弹簧预载余量、发电功率和油箱实际续航，再决定是否加三箱；把所有装备装满，等于亲手毁掉 T7 的核心价值。"
+      ],
+      "source": "https://www.yamaha-motor.eu/gb/en/motorcycles/adventure/pdp/t-n-r-700-2022/",
+      "sourceName": "Yamaha Motor Europe · 2026 Ténéré 700"
+    },
+    {
+      "tag": "新兴生活",
+      "title": "集体无手机活动增长 121%：人们需要的不是自控力，是一套共同规则",
+      "lead": "英国出现更多无手机散步、艺术课、餐会、桑拿读书会、酒吧和离线小屋。Eventbrite 数据显示，2024—2025 年全球无手机活动参与量增长 121%。",
+      "detail": [
+        "这些活动把手机统一放进 lockbox、phone hotel 或封口袋，再提供绘画、拼贴、桌游、阅读和谈话提示。有效点在于把反复抵抗通知的个人决策，改成所有人都遵守的空间规则；最初几分钟的不适也因此不会显得格格不入。",
+        "产品设计上，真正可复制的不是“禁止手机”四个字，而是过渡仪式、替代活动和紧急联络方案。一个低成本版本可以是 90 分钟：入场存机、前 30 分钟各做各的、后 45 分钟自由交流、最后 15 分钟取机与约下次。"
+      ],
+      "source": "https://www.theguardian.com/technology/2026/aug/01/great-british-switch-off-fun-freeing-ways-ditch-smartphone-doomscrolling",
+      "sourceName": "The Guardian · 2026-08-01"
+    },
+    {
+      "tag": "全球音乐榜",
+      "title": "Billboard Global 200 前十：Dai Dai 继续第一，Oasis 的 Wonderwall 回到第五",
+      "lead": "榜单周为 2026 年 8 月 1 日，按 Billboard 官方页面记录全球 200 多个地区的流媒体与下载表现。",
+      "detail": [
+        "1. Dai Dai (FIFA World Cup Official Song 2026) — Shakira X Burna Boy；2. Hate That I Made You Love Me — Ariana Grande；3. Choosin' Texas — Ella Langley；4. Normal — BTS；5. Wonderwall — Oasis。",
+        "6. Beauty And A Beat — Justin Bieber Featuring Nicki Minaj；7. Dracula — Tame Impala & JENNIE；8. Billie Jean — Michael Jackson；9. Stupid Song — Olivia Rodrigo；10. Swim — BTS。旧作《Wonderwall》《Billie Jean》同时在前十，说明全球周榜的目录音乐再发现仍足以与新发行同台竞争。"
+      ],
+      "source": "https://www.billboard.com/charts/billboard-global-200/2026-08-01/",
+      "sourceName": "Billboard Global 200 · Week of 2026-08-01"
+    },
+    {
+      "tag": "咖啡",
+      "title": "磨豆前喷一点水，不只是防飞粉：深烘浓缩液浓度可提高至少 15%",
+      "lead": "咖啡研磨会让颗粒带电并结团、飞散、黏在磨盘和粉杯上。研究发现，磨前给整豆加入少量水可显著降低静电，并释放原本黏在一起的细粉，改变粉床结构与萃取。",
+      "detail": [
+        "研究给出的有效上限是每克豆少于 0.05 ml 水；在深烘 espresso 条件下，其他变量不变时，成品浓度至少提高 15%。这不代表所有豆都越湿越好：浅烘本来带电模式不同，磨豆机材质、环境湿度和刀盘结构也会改变结果，过量水还可能增加残留与维护风险。",
+        "家庭可复现：同一支深烘豆做两杯 18 g espresso，一杯不加水，另一杯用细雾喷 2—3 下、称重确认增加约 0.3—0.5 g 水，充分摇匀再磨；固定粉量、液重和水温，比较研磨残留、流速与口感。这个用量低于论文上限，但仍应先确认磨豆机厂商允许 RDT。"
+      ],
+      "source": "https://arxiv.org/abs/2312.03103",
+      "sourceName": "Matter 研究预印本 · Chemical strategies to mitigate electrostatic charging"
+    },
+    {
+      "tag": "今日咖啡豆",
+      "title": "SL28：名字像实验编号，杯里却成了肯尼亚的标志性黑加仑酸质",
+      "lead": "SL28 是 Scott Agricultural Laboratories 在 1935 年从 Tanganyika Drought Resistant 群体的一棵树中选出的品种，遗传背景接近 Bourbon。SL 是实验室前缀，28 只是选择编号。",
+      "detail": [
+        "它适合中高海拔、耐旱且生命力强，有些肯尼亚老树 60—80 年仍可生产；代价是容易感染主要咖啡病害。优质批次常见黑加仑、柑橘、番茄叶与多汁酸质，但这类风味也受到肯尼亚高海拔、土壤、水洗处理与烘焙共同影响，不能全归给基因。",
+        "水洗浅烘可从 15 g、250 g 水、93—95°C、中粗研磨、3:00 左右起步，高温帮助展开密度高的豆；若酸尖而甜感空，研磨细一格或延长 15 秒，不要先降温。适合 V60、Kalita 和 AeroPress；深烘摩卡壶会压掉果酸层次，冷萃则容易只留下单一果汁感。"
+      ],
+      "source": "https://varieties.worldcoffeeresearch.org/varieties/sl28",
+      "sourceName": "World Coffee Research 品种档案"
+    },
+    {
+      "tag": "DIY 调酒",
+      "title": "格兰威特椰子酸高球：不加糖浆，也能把酸做得干净",
+      "lead": "格兰威特官方配方使用 Founder’s Reserve 50 ml、鲜青柠汁 10 ml、椰子水 120 ml 和 1 dash 芳香苦精。椰子水提供轻微甜度和咸矿物感，不会把威士忌变成厚重甜品。",
+      "detail": [
+        "高球杯先装一半碎冰，加入威士忌、青柠、椰子水，搅拌 8—10 秒；继续堆碎冰至杯口，滴苦精。用薄青柠皮即可，不加椰浆。椰子水必须提前冰透，否则融水会把 50 ml 威士忌的主体稀释得很快。",
+        "偏酸可把青柠升到 15 ml；若椰子水偏淡，加入 2 滴 20% 盐水会比加糖更能托起果香。若仍显薄，把椰子水降到 100 ml，而不是增加基酒。这杯的结构接近清爽长饮，不是 Whisky Sour，也不需要蛋清。"
+      ],
+      "source": "https://www.theglenlivet.com/fr-ca/our-community-fr-ca/articles-fr-ca/11-idees-de-boissons-au-whisky-pour-pique-niquer-et-rehausser-le-niveau-de-vos-cocktails-de-vos-pique-niques/",
+      "sourceName": "The Glenlivet 官方配方"
+    },
+    {
+      "tag": "健康菜谱",
+      "title": "高蛋白托斯卡纳鸡：用茅屋奶酪做奶油感，每份约 61 g 蛋白",
+      "lead": "四人份思路：鸡胸约 700 g、低脂茅屋奶酪 300 g、番茄干 80 g、菠菜 200 g、蒜和意式香料，再用少量帕玛森、鸡汤调节浓度。原配方标注每份约 61 g 蛋白。",
+      "detail": [
+        "鸡胸切薄片煎上色后取出；茅屋奶酪与鸡汤搅打顺滑，原锅炒蒜和番茄干，倒入奶酪酱小火加热，加入菠菜，再放回鸡肉煮熟。不要让酱剧烈沸腾，否则乳蛋白容易颗粒化。",
+        "训练后可配每人 70—90 g 干重意面或 180—220 g 熟土豆；减脂期把主食减半，同时增加蘑菇和菠菜体积。番茄干与帕玛森钠含量高，鸡肉调味时少放盐。营养值会随奶酪脂肪率和主食变化。"
+      ],
+      "source": "https://joytothefood.com/high-protein-tuscan-chicken/",
+      "sourceName": "Joy to the Food · High Protein Tuscan Chicken"
+    },
+    {
+      "tag": "意外但有用",
+      "title": "鼓包充电宝别扎、别压，也别扔进普通垃圾桶",
+      "lead": "锂离子电池鼓包意味着内部已发生异常产气或损伤。继续充电、挤压外壳或刺破，都可能触发热失控；普通垃圾和常规回收线也可能被压碎起火。",
+      "detail": [
+        "立刻停止使用与充电，把设备移到远离纸张、布料和阳光的坚硬不燃表面；不要自行拆电芯。联系品牌售后或当地有资质的电池回收点，按其要求隔离和运输。若出现冒烟、嘶嘶声、异味或迅速发热，撤离并联系消防，不要抱着设备穿过人群。",
+        "日常预防：使用原厂或明确批准的充电器；不要在床、沙发、枕头下充电；电量充满后结束充电；损坏、泡水或受猛烈撞击的电池不再使用。把旧电池投进普通垃圾桶，是把火灾风险转移给清运和分拣人员。"
+      ],
+      "source": "https://www.nfpa.org/education-and-research/energy-transition/lithium-ion-batteries",
+      "sourceName": "National Fire Protection Association"
+    }
+  ]
+}
