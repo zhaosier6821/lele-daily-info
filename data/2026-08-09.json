@@ -1,0 +1,160 @@
+{
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-08T23:58:08Z",
+  "cards": [
+    {
+      "tag": "各国财经",
+      "title": "美日联手托日元：一次汇率干预，真正担心的是美债传导",
+      "lead": "美国与日本罕见协调买入日元后，日元短暂走强。8 月 8 日的 Reuters Breakingviews 分析指出，美国参与并不只是帮助盟友稳汇率，也是在降低日本为筹集干预美元而抛售美国国债的风险。",
+      "detail": [
+        "日本是美国国债最大的海外持有者之一。若日元持续贬值，日本可能需要动用美元资产支持本币，长端美债收益率就会承受额外上行压力；这解释了为何美国这次愿意跨出通常由日本单独完成的一步。",
+        "但干预只改变短期供求，无法替代日本的利率、财政与增长调整。接下来应看美元兑日元是否重新逼近干预区间、日本外汇储备变化，以及美日利差是否收窄；若三者都不配合，再大规模的买盘也只是争取时间。"
+      ],
+      "source": "https://www.reuters.com/commentary/breakingviews/global-markets-breakingviews-2026-08-08/",
+      "sourceName": "Reuters Breakingviews · 2026-08-08"
+    },
+    {
+      "tag": "中国新经济",
+      "title": "工业物理 AI 的卡点：不是机器人不会学，而是工程模型喂不进去",
+      "lead": "数字中国建设峰会官网 8 月 7 日刊文指出，传统工业仿真与具身仿真长期分属两套体系：前者追求工程精度，后者追求实时交互，两边缺少可验证的模型转换与接口。",
+      "detail": [
+        "工业现场的接触、摩擦、形变、装配公差和材料属性必须可计算。已在 CAD、CAE 和虚拟调试中验证过的模型若不能进入机器人训练环境，具身模型就只能在近似世界里学动作，到了真实产线仍会因微小误差失败。",
+        "政策已把高质量工业数据集、实景实训和常态部署放到 2026 年任务里。产业机会因此不只在机器人本体，也在仿真数据治理、格式转换、实时求解器、软硬件在环测试和验证标准；谁能证明仿真到现实的误差边界，谁才真正拥有工业入口。"
+      ],
+      "source": "https://www.szzg.gov.cn/2026/xwzx/szkx/202608/t20260807_5355724.htm",
+      "sourceName": "数字中国建设峰会 · 2026-08-07"
+    },
+    {
+      "tag": "全球产业",
+      "title": "美国给多晶硅加 15% 关税：芯片与光伏被绑进同一条安全链",
+      "lead": "美国 8 月 6 日宣布对进口多晶硅征收 15% 关税，并设置最低进口价格；措施将于 12 月 4 日生效，目标同时覆盖半导体级与太阳能级材料。",
+      "detail": [
+        "政策不仅提高边境成本，还给多晶硅、晶圆和组件设价格地板，例如多晶硅最低 21 美元/kg、太阳能组件最低 0.38 美元/W。受益方可能包括美国本土多晶硅与组件厂，但下游项目采购成本也会被锁在更高区间。",
+        "半导体级多晶硅和光伏级产品在纯度、认证和客户结构上并不相同，关税不能自动把一条产线变成另一条。判断政策成败，要分别追踪本土有效产能、长期采购合同、组件装机成本，以及实施前是否出现抢进口。"
+      ],
+      "source": "https://www.reuters.com/world/asia-pacific/trump-signs-executive-order-protect-us-polysilicon-industry-2026-08-06/",
+      "sourceName": "Reuters · 2026-08-06"
+    },
+    {
+      "tag": "国外游戏",
+      "title": "MARVEL Tōkon: Fighting Souls（暂无可核实的官方中文名）：4v4 很华丽，PC 首发却先被性能拖住",
+      "lead": "Arc System Works 开发、Sony Interactive Entertainment 发行的 2.5D 格斗游戏已于 8 月 6 日登陆 PS5 与 PC，首发 20 名角色，核心是逐步解锁完整四人队伍的 4v4 标签战。",
+      "detail": [
+        "对局开始时并非四人全部可用，玩家通过伤害积累、Wall Break 等条件扩大可调用阵容，再在主控切换与援护之间组织连段。故事围绕 Champion of the Universe 逼迫地球队伍参加竞赛，英雄与反派组成五支四人队阻止世界毁灭。",
+        "开发商 Arc System Works 的公司作品包括 Guilty Gear、BlazBlue 与 Dragon Ball FighterZ；PlayStation Studios XDev 和 Marvel Games 参与协作，发行方是 Sony。首发后 PC 玩家集中报告卡顿、帧率和 PSN 登录限制；格斗游戏的 rollback 网络码也救不了本地帧时间不稳，购买前应先看补丁而非只看角色表。"
+      ],
+      "source": "https://www.gamesradar.com/games/fighting/marvel-tokon-fighting-souls-is-mixed-on-steam-as-players-report-poor-pc-performance-no-linux-support-and-countries-without-psn-unable-to-play/",
+      "sourceName": "GamesRadar+ · 2026-08-08（发行信息由 PlayStation 官方交叉核验）"
+    },
+    {
+      "tag": "旅行路线",
+      "title": "7 天乌兹别克斯坦：塔什干—布哈拉—撒马尔罕，用高铁压缩丝路转场",
+      "lead": "乌兹别克斯坦官方旅游路线把塔什干、布哈拉和撒马尔罕串成 6 天 5 夜；增加一晚后，可把抵达日和返程拆开，避免每天都像旅行团赶场。",
+      "detail": [
+        "建议 D1 塔什干老城与地铁；D2 飞机或夜车到布哈拉；D3 布哈拉古城、Ark 城堡与 Poi Kalyan；D4 Afrosiyob 高铁到撒马尔罕；D5 Registan、Bibi-Khanym 与 Siyob 市集；D6 Konigil 纸坊和 Afrasiab 博物馆后高铁回塔什干；D7 Chorsu 市集后返程。热门高铁票通常提前 45 天开放，旺季需抢。",
+        "按 1 人、两人拼房估算：北京往返机票 3,500—6,500 元；6 晚住宿 1,200—2,400 元；国内机票/高铁与市内交通 700—1,300 元；餐饮 600—1,200 元；门票、向导和活动 500—1,000 元；保险、电话卡及杂费 250—500 元，总计约 6,750—12,900 元。为 2026 年 8 月动态估算，车票和机票须预订前复核。"
+      ],
+      "source": "https://uzbekistan.travel/en/o/uzbekistan-tashkent-bukhara-samarkand-6-days-5-nights-travel-itinerary/",
+      "sourceName": "Uzbekistan Travel 官方路线"
+    },
+    {
+      "tag": "健身健康",
+      "title": "ACSM 2026 把 137 项研究压成一句话：增肌别迷信负重，力量才更挑负重",
+      "lead": "美国运动医学会 2026 立场声明汇总 137 项研究、超过 3 万名参与者：抗阻训练能改善力量、肌肥大、功率和功能，但不同目标对负重、组数与频率的敏感度并不相同。",
+      "detail": [
+        "力量更依赖较高负重和专项动作练习；肌肥大可在广泛负重范围发生，关键是足够努力和周训练量，多组通常优于单组。综述规模很大，但其中并非全部是练了 5 年的老手，不能把总体建议当作高级运动员的精确剂量。",
+        "进阶实践：主项力量块保留 80% 1RM 以上的暴露，辅项可用 6—20 次区间分配关节压力；每个肌群先维持约 10 个高质量周组，再依据 3—4 周的负重、同 RIR 次数和围度趋势加减 2—4 组。频率主要用于分散体积，不是独立的增肌魔法。"
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+      "sourceName": "ACSM Position Stand / PubMed · 2026"
+    },
+    {
+      "tag": "机车",
+      "title": "2027 GSX-R750：190 kg、无电子油门，铃木把“老派纯机械”继续卖下去",
+      "lead": "Suzuki 8 月 7 日发布 2027 GSX-R600/750。GSX-R750 仍是 750 cc 直四、12.5:1 压缩比、6 挡变速箱，整备质量 190 kg、座高 810 mm、油箱 17 L。",
+      "detail": [
+        "底盘继续使用倒立前叉、连杆单枪后减，前 Brembo 四活塞双盘、后 Nissin 单活塞；轮胎为 120/70ZR17 与 180/55ZR17。最值得注意的不是新增什么，而是它仍采用 SDTV 拉线/二次节气门逻辑，没有把 IMU、弯道 ABS、电子油门和快排堆成卖点。",
+        "这让 750 在 600 的高转技巧与公升级暴力之间保留独特位置，但也意味着它不是“便宜版现代超级跑车”。对懂车的人，购买判断应落在赛道日的动力可用区、刹车热衰、悬挂整备与零件生态；若你依赖弯道电控托底，同价位更新平台可能更合适。"
+      ],
+      "source": "https://suzukicycles.com/sportbike/2027/gsx-r750",
+      "sourceName": "Suzuki Motor USA 官方 · 2026-08-07"
+    },
+    {
+      "tag": "新兴生活",
+      "title": "“Clear-coding”流行：约会软件用户开始把边界写明，而不是让对方猜",
+      "lead": "近年的约会术语从 ghosting、breadcrumbing 膨胀到 clear-coding：与其靠暧昧信号维持选择，人们更愿意提前说明自己要长期关系、轻松见面，还是尚未确定。",
+      "detail": [
+        "它的价值不在创造又一个标签，而在把信息不对称前置处理。清楚表达并不保证匹配成功，却能减少把不兼容误解成“还需要更努力”的时间；Guardian 8 月 6 日的术语测试也讽刺了行业不停包装旧行为的倾向。",
+        "可执行版本只需要三句：我目前想要什么；我不能接受什么；如果想法改变，我会怎样说明。边界不是招聘 JD，也不必列十条考核项。真正的 clear-coding 是让退出同样体面，而不是用“坦诚”包装控制。"
+      ],
+      "source": "https://www.theguardian.com/lifeandstyle/2026/aug/06/from-shrekking-to-cookie-jarring-how-well-do-you-know-the-latest-dating-terms",
+      "sourceName": "The Guardian · 2026-08-06"
+    },
+    {
+      "tag": "全球音乐榜",
+      "title": "Billboard Global 200 仍未发布新榜周：前十继续以 8 月 8 日官方页为准",
+      "lead": "截至北京时间 8 月 9 日早晨，Billboard 可核实的最新页面仍是 Week of 2026-08-08。日报记录官方可见状态，不把网站尚未发布的数据提前猜出来。",
+      "detail": [
+        "1. Dai Dai (FIFA World Cup Official Song 2026) — Shakira X Burna Boy；2. Choosin' Texas — Ella Langley；3. Hate That I Made You Love Me — Ariana Grande；4. Been By Now — Morgan Wallen；5. Beauty And A Beat — Justin Bieber Featuring Nicki Minaj。",
+        "6. Billie Jean — Michael Jackson；7. Dracula — Tame Impala & JENNIE；8. Stupid Song — Olivia Rodrigo；9. Swim — BTS；10. Animal — KATSEYE。新榜周公开后再记录升降，今天唯一准确的更新就是“未换榜”。"
+      ],
+      "source": "https://www.billboard.com/charts/billboard-global-200/2026-08-08/",
+      "sourceName": "Billboard Global 200 · Week of 2026-08-08"
+    },
+    {
+      "tag": "咖啡",
+      "title": "9 bar 不等于流量无限增加：咖啡粉饼会被压实，自带“限流”",
+      "lead": "2026 年一项咖啡机实测与物理模型研究指出，espresso 粉饼是会溶解、膨胀和变形的多孔介质；压力升高后，流量不会按 Darcy 线性关系一直增加，因为粉饼同时被压得更不透水。",
+      "detail": [
+        "研究在商用咖啡机上做了 60 杯、11 个篮内压力条件。低于约 5 bar 时流量近似线性，高压区逐渐饱和；时间分辨 TDS 又显示，前段 10—20 秒的溶质释放动力学与后段稳定流量不能用一个常数渗透率解释。",
+        "家庭可做 6/9 bar 对照：同豆 18 g、粉碗和布粉固定，目标液重 36 g，记录首滴、总时长与前中后分段液重；不要为了追同一秒数同时改研磨。若 9 bar 反而更慢、更涩，可能是粉饼压实与通道共同作用，而不是泵“不够强”。这是编辑实验建议，不是论文原协议。"
+      ],
+      "source": "https://arxiv.org/html/2512.21528v2",
+      "sourceName": "Under pressure: poroelastic regulation of flow in espresso brewing · 2026-05-09"
+    },
+    {
+      "tag": "今日咖啡豆",
+      "title": "Bourbon：不是威士忌桶处理，而是现代阿拉比卡的重要母系",
+      "lead": "咖啡 Bourbon 得名于波旁岛（今留尼汪岛）。法国传教士 18 世纪初把也门咖啡带到岛上，19 世纪中期后再扩散到非洲与美洲；它和“波本威士忌”没有工艺关系。",
+      "detail": [
+        "Bourbon 植株高、产量相对低、对主要病害敏感，却以优秀杯质和甜感著称。它又衍生出 Caturra、Catuai、Mundo Novo 等大量商业品种。杯中常见焦糖、核果、圆润酸质，但产地、海拔、处理和烘焙足以让不同 Bourbon 完全不像。",
+        "水洗中浅烘可从 15 g、240 g 水、92—94°C、中粗研磨、2:45—3:10 起步，适合 V60、Kalita 和法压；蜜处理若甜感厚可降 1°C、减少搅动。它也能做甜感型 espresso，但深烘摩卡壶会把品种差异压成焦糖苦感，不值得为昂贵微批次这样做。"
+      ],
+      "source": "https://varieties.worldcoffeeresearch.org/varieties/bourbon",
+      "sourceName": "World Coffee Research 品种档案"
+    },
+    {
+      "tag": "DIY 调酒",
+      "title": "格兰威特覆盆子白醋 Smash：用 5 ml 醋把果酸拉成立体",
+      "lead": "The Glenlivet 官方 Grain & Cane 配方使用 Founder’s Reserve 50 ml、覆盆子 5 颗、柠檬汁 15 ml、白葡萄香醋 5 ml、糖浆 15 ml。它不是 Whisky Sour，而是果酸、挥发酸和麦芽果香的三层结构。",
+      "detail": [
+        "把覆盆子轻压后与其余材料加冰硬摇 12 秒，双重过滤到装满碎冰的高球杯；覆盆子和一小撮现磨黑胡椒装饰。白葡萄香醋要用香气干净的产品，普通强烈陈醋会直接盖住威士忌。",
+        "偏酸版本把糖浆降至 10—12.5 ml，柠檬保持 15 ml；若醋感尖，先把白醋降到 3 ml，不要靠再加糖掩盖。碎冰稀释快，第一口结构会最完整，因此杯和酒都要预冷。"
+      ],
+      "source": "https://www.theglenlivet.com/en/our-community/articles/breakfast-brunch-cocktails/",
+      "sourceName": "The Glenlivet 官方 · Grain & Cane"
+    },
+    {
+      "tag": "健康菜谱",
+      "title": "辣味三文鱼西兰花饭碗：一盘烤完，训练后不需要再拼营养",
+      "lead": "两人份：三文鱼 320 g、西兰花 400 g、熟米饭 300—360 g；酱汁用希腊酸奶 80 g、辣椒酱 15 g、青柠汁 15 ml、酱油 10 ml，另备蒜粉和少量芝麻。",
+      "detail": [
+        "三文鱼切大块，西兰花拍扁，分别拌少量油、盐与蒜粉，在 220°C 烤 12—15 分钟，中途翻一次；把酸奶、辣椒、青柠和酱油调匀。饭碗放米饭、西兰花和三文鱼，酱最后淋，避免高温让酸奶分离。",
+        "按常见食材估算，每份约 40 g 蛋白质、55—65 g 碳水，并提供 omega-3 和较高蔬菜量。大容量腿训日取 180 g 熟饭，休息日减到 120 g；减脂时别先砍三文鱼，先减少米饭和额外油。"
+      ],
+      "source": "https://www.skinnytaste.com/salmon-broccoli-rice-bowls/",
+      "sourceName": "Skinnytaste · 2026-07-20"
+    },
+    {
+      "tag": "意外但有用",
+      "title": "停电后冰箱只有 4 小时窗口；满冷冻柜才有约 48 小时",
+      "lead": "FoodSafety.gov 的规则很具体：不开门时，冷藏室大约只能维持 4 小时安全温度；装满的冷冻柜约 48 小时，半满约 24 小时。",
+      "detail": [
+        "停电超过 4 小时后，冷藏的肉、鱼、蛋、奶和剩菜通常应丢弃。冷冻食品若仍有冰晶，或实测温度不高于 4°C，可以重新冷冻；不要靠闻、尝来判断，因为致病菌未必改变味道和气味。",
+        "今晚就能做：在冷藏和冷冻室各放一个温度计；把几个装七成水的容器冻成冰块，既增加热容量，也可在停电时移进保冷箱。停电时先记时间、少开门，再决定转移食物，不要频繁打开检查。"
+      ],
+      "source": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+      "sourceName": "FoodSafety.gov"
+    }
+  ]
+}
